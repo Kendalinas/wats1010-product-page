@@ -9,3 +9,75 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar-nav li a:hover {
+  color: #1abc9c !important;
+}
+#social {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width:130px;
+  height: 70px;
+  background: -webkit-linear-gradient(#fae3fa, #9800ff);
+  transition: 2s height;
+  border-radius: 5%;
+}
+
+
+#social:hover {
+  height: 210px;
+}
+
+aside h2 {
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px black;
+  font-family: "Oswald";
+  margin-bottom: 5px;
+}
+
+ul.social-links {
+  padding-left: 50px;
+  
+}
+
+ul.social-links li {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.social-links li {
+  text-decoration: none;
+  margin: 0;
+  padding: 10px 51px 10px 20px;
+}
+
+#social i.fa-twitter, i.fa-youtube-play, i.fa-instagram {
+  color: white;
+}
+
+
+/* Aside End */
+
+
+/* 
+Footer Start */
+
+footer .navbar-default {
+  background: transparent;
+  border: 0;
+}
